@@ -1,7 +1,7 @@
 * {
   background-color: black;
   font-family: Helvetica;
-  font-size: 22px;
+  /* font-size: 22px; */
   color: seashell;
   opacity: 0.9;
 }
@@ -16,16 +16,16 @@ header {
   z-index: 10;
 }
 
-.logo {
+.header_logo {
   flex-basis: 300px;
   margin-left: 10px;
 }
 
-.logo img {
+.header_logo img {
   height: 50px;
 }
 
-.navBar {
+.header_navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -33,22 +33,27 @@ header {
   margin-right: 15px;
 }
 
-.navBar span{
+.header_navbar span{
   display: inline-block;
   margin: 0 15px;
   white-space: nowrap;
 }
 
-.headlineSection {
+.title {
   position: relative;
   top: 69px;
 }
 
-.headlineImage {
-  background-image: url(../Images/img-mission-background.jpg);
+.title_imagecontainer {
+  background-image: url("../Images/img-mission-background.jpg");
 }
 
 .content {
   position: relative;
   top: 69px;
+}
+
+.content_container_item img {
+  width: 300px;
+  height: 200px;
 }
