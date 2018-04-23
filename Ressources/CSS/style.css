@@ -45,7 +45,25 @@ header {
 }
 
 .title_imagecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../Images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title_imagecontainer_headline {
+  text-align: center;
+}
+
+.title_imagecontainer_headline h2{
+  
+}
+
+.title_imagecontainer_headline h4{
+
 }
 
 .content {
