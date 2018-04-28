@@ -1,12 +1,25 @@
 * {
   background-color: black;
   font-family: Helvetica;
-  /* font-size: 22px; */
   color: seashell;
   opacity: 0.9;
   text-align: center;
-  /* border: 1px solid white; */
 }
+
+h2 {
+
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 16;
+}
+
+/* Stylesheets for <header> */
 
 header {
   display: flex;
@@ -45,6 +58,8 @@ header {
   white-space: nowrap;
 }
 
+/* Stylesheets for <main> */
+
 .title-image {
   display: flex;
   flex-direction: column;
@@ -54,36 +69,43 @@ header {
   width: 1200px;
   margin: 75px auto 0px auto;
 }
+.title-image_headline h2{
+  margin-top: 5px;
+}
 
-/* .title_imagecontainer {
-  text-align: center;
-} */
+.title-image_headline h4{
+  margin-bottom: 5px;
+}
 
-main {
+.main-content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 1000px;
-  margin: 0 auto;
+  margin: 15px auto 0 auto;
 }
 
-.main_headline {
+.main-content_headline {
   width: 100%;
-  /* text-align: center; */
+}
+.main-content_headline h2 {
+  margin-top: 5px;
 }
 
-.main_item {
+.main-content_item {
   margin: 0 12.5px;
 }
 
-.main_item img {
+.main-content_item img {
   width: 300px;
   height: 200px;
 }
 
-.main_item h4 {
+.main-content_item h4 {
   margin-top: 10px;
 }
+
+/* Stylesheets for <footer> */
 
 footer {
   margin-top: 50px;
@@ -123,20 +145,23 @@ footer {
   margin: 0 20px;
   width: 300px;
 }
-.locations_container_item h2 {
-  padding: 10px 0;
-}
+
 .locations_container_item h3 {
-  padding: 10px 0;
+  margin: 25px 0;
 }
 .locations_container_item h4 {
-  padding: 10px 0;
+  margin: 25px 0;
+  padding-top: 10px;
 }
 
 .contact {
   height: 200px;
   width: 1200px;
   margin: 0 auto;
+}
+
+.contact h5 {
+  margin: 35px 0;
 }
 
 .copyright h5 {
