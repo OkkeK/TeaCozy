@@ -60,6 +60,11 @@ header {
 
 /* Stylesheets for <main> */
 
+.anchor-offset {
+  position: relative;
+  top: -68px;
+}
+
 .title-image {
   display: flex;
   flex-direction: column;
